@@ -54,6 +54,7 @@ public class Main {
         }
 
         { // equals
+
             var s = new DynString(4, 'o');
             verify( s.equals( "oooo"), "equals: wrong result");
             verify(!s.equals(  "ooo"), "equals: wrong result");

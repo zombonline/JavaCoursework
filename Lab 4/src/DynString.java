@@ -16,7 +16,6 @@ public class DynString {
     {
         resizeData(len);
         Arrays.fill(data, fill);
-        System.out.println(this.substr(0));
     }
     // Construct using a string
     public DynString(String s)
